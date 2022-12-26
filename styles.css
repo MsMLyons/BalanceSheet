@@ -54,5 +54,13 @@ section {
     border: 2px solid #d0d0d5;
 }
 
-
+#years {
+    display: flex;
+    justify-content: flex-end;
+    /* sticky value - allows elements to stick when the scroll reaches a certain point (resource: digital ocean) */
+    position: sticky;
+    top: 0;
+    color: #fff;
+    background: #0a0a23;
+}
 
