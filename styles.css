@@ -6,3 +6,21 @@ body {
     font-family: sans-serif;
     color: #0a0a23;
 }
+
+/* select all spans with the given class */
+/* sr-only hides info from page, but makes it available to screen readers */
+span[class~="sr-only"] {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    -webkit-clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    padding: 0;
+    margin: -1px;
+}
+
+
